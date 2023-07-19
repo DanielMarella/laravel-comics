@@ -3,15 +3,19 @@
 @section('title', 'Welcome')
 
 @section('main-content')
-
 <main>
     <div class="content-container">
         <div class="content">
+            @foreach ($cards as $card)
+            <div class="card">
+                <img src="{{$card['thumb']}}" alt="">
+                <p>
+                    {{$card['series']}}
+                </p>
+                
+            </div>
+            @endforeach
             <button>LOAD MORE</button>
-        </div>
-        <div class="button">
-         </div>
-        <div class="main-card">
         </div>
     </div>
 </main>
