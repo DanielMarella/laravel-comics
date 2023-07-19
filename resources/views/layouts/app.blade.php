@@ -11,8 +11,6 @@
     @include('partials.jumbotron')
     <main>
         @yield('main-content')
-        @include('partials.maincard')
-
     </main>
 
 
