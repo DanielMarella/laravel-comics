@@ -4,8 +4,16 @@
 
 @section('main-content')
 
-<h1>
-    Welcome
-</h1>
+<main>
+    <div class="content-container">
+        <div class="content">
+            <button>LOAD MORE</button>
+        </div>
+        <div class="button">
+         </div>
+        <div class="main-card">
+        </div>
+    </div>
+</main>
 
 @endsection
